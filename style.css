@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.income {
+  background-color: #d4f8d4;
+}
+
+.expense {
+  background-color: #f8d4d4;
+}
